@@ -1,0 +1,30 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Garante que a altura cubra a tela inteira */
+  display: flex;
+  flex-direction: column;
+  background: rgb(228, 223, 223);
+  font-family: "Poppins";
+}
+h1 {
+  text-align: center;
+}
+
+footer {
+  position: fixed; /* Fixa o footer na posição*/
+  bottom: 0; /* Garante que ele fique no fim da tela */
+  width: 100%; /* Faz o footer ocupar toda a largura */
+  text-align: center; /* Centraliza o texto */
+  padding: 1rem; /* Adiciona espaço interno */
+}
+ul {
+  text-align: start;
+}
+
+.todas {
+  text-transform: uppercase;
+  list-style-type: none;
+  margin-top: 10px;
+}
